@@ -1,0 +1,25 @@
+{
+  "name": "curriculo-react",
+  "version": "1.0.0",
+  "description": "Repositório destinado à criação de um currículo feito com o framework React e com Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuizHenriqueVitorino/curriculo-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuizHenriqueVitorino/curriculo-react/issues"
+  },
+  "homepage": "https://github.com/LuizHenriqueVitorino/curriculo-react#readme",
+  "dependencies": {
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
