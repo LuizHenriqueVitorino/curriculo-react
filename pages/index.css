@@ -13,27 +13,49 @@ h1{
     min-width: 350px;
     max-width: 500px;
     width: 50%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .btn{
     padding: 0;
     margin: 0;
     font-weight: bold;
-    width: 100px;
-    height: 30px;
-
+    font-size: 30px;
+    width: 70px;
+    height: 50px;
+    border: none;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
 }
 .btn:hover{
     cursor: pointer;
+    transition: 1s;
 }
 
 #add{
     background-color: rgb(86, 209, 86);
+    color: white;
 }
 #dec{
     background-color: rgb(209, 86, 86);
     color: white;
 }
 #zer{
+    background-color: rgb(86, 86, 209);
+    color: white;
+}
+
+#add:hover{
+    box-shadow: 0 0 10px 5px rgb(86, 209, 86);
     background-color: white;
+    color: black;
+}
+#dec:hover {
+    box-shadow: 0 0 10px 5px rgb(209, 86, 86);
+    background-color: white;
+    color: black;
+}
+#zer:hover{
+    box-shadow: 0 0 10px 5px rgb(86, 86, 209);
+    background-color: white;
+    color: black;
 }

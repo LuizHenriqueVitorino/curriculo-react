@@ -30,9 +30,9 @@ function Contador(){
         <div className="conteiner">
             <h1>{contador}</h1>
             <div className="botoes">
-                <button className="btn" id="add" onClick={adicionaContador}>Acrescentar</button>
-                <button className="btn" id="dec" onClick={decrementarContador}>Decrementar</button>
-                <button className="btn" id="zer" onClick={zeraContador}>Zerar</button>
+                <button className="btn" id="add" onClick={adicionaContador}>+1</button>
+                <button className="btn" id="dec" onClick={decrementarContador}>-1</button>
+                <button className="btn" id="zer" onClick={zeraContador}>0</button>
             </div>
         </div>
     );
